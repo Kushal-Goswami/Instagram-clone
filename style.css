@@ -1,62 +1,149 @@
-body{
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    box-sizing: border-box;
-    background-color: black;
-    color: white;
+body {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	box-sizing: border-box;
+	background-color: black;
+	color: white;
 }
 
-.left-panel{
-    width: 15%;
-    padding: 14px;
-    position: fixed;
-    border-right: 1px solid rgba(252, 248, 248, 0.362);
-    height: 100%;
-    display: flex;
-    flex-direction: column;
+.left-panel {
+	width: 12%;
+	padding: 14px;
+	position: fixed;
+	border-right: 1px solid rgba(252, 248, 248, 0.362);
+	height: 100%;
+	display: flex;
+	flex-direction: column;
 }
 
-.items{
-    display: flex;
-    align-items: center;
-    gap: 14px;
+.items {
+	display: flex;
+	align-items: center;
+	gap: 14px;
 }
 
-.profile-img{
-    border-radius: 50%;
+.profile-img {
+	border-radius: 50%;
 }
 
-.right-panel{
-    width: 85%;
-    margin-left: 30%;
-    padding: 40px;
+.right-panel {
+	width: 88%;
+	margin-left: 25%;
+	padding-top: 4%;
 }
 
-.google-img{
-    width: 150px;
-    height: 150px;
-    border-radius: 50%;
+.google-img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
 }
 
-.main-content{
-    display: flex;
-    gap: 120px;
+
+.flexbox {
+	display: flex;
 }
 
-.content-2{
-    display: flex;
-    align-items: center;
-    gap: 12px;
-}
-.btn {
-    padding: 10px 30px;
-    border: none;
-    border-radius: 8px;
-    background-color: gray;
-    color: white;
+.flex {
+	display: flex;
+	gap: 120px;
+	margin-bottom: 5px;
 }
 
 .buttons {
-    display: flex;
-    align-items: center;
-    gap: 25px;
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.content-2 {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+}
+
+.options {
+	display: flex;
+	align-items: center;
+	gap: 25px;
+}
+
+.btn {
+	padding: 10px 30px;
+	border: none;
+	border-radius: 8px;
+	background-color: gray;
+	color: white;
+	display: flex;
+	align-items: center;
+	gap: 8px;
+}
+
+.color {
+	background-color: gray;
+	border-radius: 7px;
+	font-size: 25px;
+	padding: 3px 10px;
+}
+
+.texts {
+	display: flex;
+	align-items: center;
+	gap: 50px;
+}
+
+.google {
+	padding: 5px 10px;
+	border-radius: 14px;
+	border: none;
+}
+
+.link {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+
+}
+
+.bio {
+	text-decoration: none;
+	color: grey;
+}
+
+.circle {
+	display: flex;
+	align-items: center;
+	gap: 80px;
+}
+
+.circle-img {
+	width: 77px;
+	height: 77px;
+	border-radius: 50%;
+	border: 1px solid lightgray;
+}
+
+.text {
+	text-align: center;
+}
+
+.select {
+	border-top: 1px solid lightgray;
+	width: 80%;
+	display: flex;
+	gap: 50px;
+	justify-content: center;
+}
+
+.card {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+}
+
+.pics {
+	display: flex;
+	gap: 10px;
+}
+
+.break {
+	margin-bottom: 5px;
 }
